@@ -1,0 +1,345 @@
+.navbar-custom {
+    background-color: black;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: white;
+
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.navbar-custom .nav-link {
+    padding: 0.5rem 1.25rem;
+    border-radius: 20px;
+}
+
+.navbar-custom .nav-link:hover,
+.nav-btn:hover {
+    background-color: #444;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    gap: .25rem;
+}
+
+.nav-btn {
+    padding: 0.25rem .75rem;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.nav-btn-light {
+    background-color: white;
+    color: black;
+}
+
+.home-img-container {
+    width: 100vw;
+    position: relative;
+}
+
+.home-img {
+    width: 100%;
+}
+
+.float-container {
+    position: absolute;
+    width: 570px;
+    height: 520px;
+    top: 65px;
+    left: 185px;
+    background-color: white;
+}
+
+.f-top {
+    display: flex;
+    height: 25%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fafafa;
+    border-bottom: 1px solid #eee;
+    line-height: 1rem;
+}
+
+.ride-button {
+    width: 100px;
+    height: 100px;
+    border: none;
+    background-color: #fafafa;
+}
+
+.ride-button>img {
+    padding: 1rem 0rem;
+}
+
+.ride-button>p {
+    font-size: .95rem;
+    font-weight: 500;
+}
+
+.f-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 0 1.5rem;
+}
+
+.f-form>h1 {
+    font-weight: 500;
+    padding: 2rem;
+    font-size: 3.2rem;
+}
+
+.f-input {
+    padding: 1rem;
+    margin: .2rem 2.5rem;
+    border: none;
+    background-color: #fafafa;
+    font-size: 1.1rem;
+}
+
+.form-button-container {
+    display: flex;
+    gap: 1rem;
+    margin: 2.5rem;
+}
+
+.form-button {
+    padding: 0.75rem 1rem;
+    border: none;
+    font-weight: 500;
+}
+
+.fb-dark {
+    background-color: black;
+    color: white;
+}
+
+
+.business-banner {
+    position: relative;
+}
+
+.business-img {
+    width: 100%;
+    height: 300px;
+}
+
+.business-text {
+    position: absolute;
+    top: 50px;
+    left: 180px;
+}
+
+.business-text>h1,
+.business-text>p {
+    margin: 0 0 2rem 0rem;
+}
+
+.ride-card {
+    display: flex;
+    margin: 2.5rem;
+    align-items: center;
+}
+
+.ride-text {
+    padding: 0 1rem;
+}
+
+.ride-card:hover>.arrow-img,
+.download-card:hover>.arrow-img {
+    transform: translateX(15px);
+    transition: all 250ms ease-in-out;
+}
+
+.safety-card {
+    margin: 0.5rem 1rem;
+}
+
+.safety-img {
+    width: 100%;
+    object-fit: cover;
+    margin: 1.5rem 0;
+}
+
+.safety-card>h5,
+.about-card>h5 {
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin: 0 0 1rem 0;
+}
+
+.safety-card>p,
+.about-card>p {
+    font-size: 1.1rem;
+
+    font-weight: 100;
+    margin: 0 0 1.5rem 0;
+}
+
+.safety-card>a,
+.about-card>a {
+    font-weight: 100;
+    font-size: 1.15rem;
+    text-decoration: underline;
+    text-decoration-color: #999;
+    color: black;
+    padding: 0 2rem 0 0;
+}
+
+.safety-card>a:hover,
+.about-card>a:hover {
+    text-decoration-color: black;
+    transition: all 250ms ease-in-out;
+
+}
+
+.about-card {
+    margin: 4rem 1rem;
+}
+
+.about-img {
+    margin: 1.5rem 0;
+}
+
+.download-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid #eee;
+    margin: 2rem 0;
+    padding: 1.5rem;
+}
+
+.download-img {
+    height: 150px;
+}
+
+.download-wrapper {
+    background-color: #fafafa;
+    padding: 4rem 0;
+}
+
+.signup-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0.75rem;
+}
+
+.underline {
+    width: 100%;
+    height: 1px;
+    margin: 0 .75rem;
+    background-color: black;
+}
+
+.footer-container {
+    color: white;
+    background-color: black;
+    padding: 4rem 0 3rem 0;
+    margin: 5rem 0 0 0;
+}
+
+.footer-container>.container>h4 {
+    margin: 2.5rem 0;
+}
+
+.footer-container>.container>h5 {
+    margin: 2.5rem 0;
+    font-weight: 100;
+}
+
+.footer-list {
+    padding: 1rem 0;
+}
+
+.footer-list>h4 {
+    padding: 1rem 0;
+}
+
+.footer-list>h6 {
+    padding: 0.25rem 0;
+    font-weight: 100;
+}
+
+.footer-list>h6:hover {
+    cursor: pointer;
+    color: #999;
+}
+
+.social-icon {
+    filter: invert(100%);
+    width: 20px;
+    height: 20px;
+}
+
+.store-icon {
+    width: 150px;
+}
+
+
+@media screen and (max-width:1100px) {
+    .home-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .container {
+        padding: 0 40px;
+    }
+
+    .float-container {
+        position: relative;
+        width: 100vw;
+        top: 0;
+        left: 0;
+    }
+
+    .f-form>h1 {
+        padding: 2rem 1rem;
+    }
+
+    .form-button-container {
+        gap: 1rem;
+        margin: 2rem 1rem;
+    }
+
+    .f-input {
+        padding: 1rem;
+        margin: .2rem 1rem;
+
+    }
+
+    .business-text {
+        left: 40px;
+    }
+
+    .home-img {
+        display: none;
+    }
+
+    .ride-card {
+        margin: 1.5rem;
+    }
+
+    .ride-img {
+        width: 120px;
+    }
+
+    .download-img {
+        height: 100px;
+    }
+
+    .about-card {
+        margin: 2rem 1rem;
+    }
+}

@@ -47,12 +47,13 @@
 
 .home-img {
     width: 100%;
+    min-height: 40rem;
 }
 
 .float-container {
     position: absolute;
-    width: 570px;
-    height: 520px;
+    width: 35rem;
+    height: 32rem;
     top: 65px;
     left: 185px;
     background-color: white;
@@ -302,15 +303,18 @@
         width: 100vw;
         top: 0;
         left: 0;
+        height: 30rem;
     }
 
     .f-form>h1 {
         padding: 2rem 1rem;
+        font-size: 2rem;
     }
 
     .form-button-container {
         gap: 1rem;
         margin: 2rem 1rem;
+
     }
 
     .f-input {
@@ -328,11 +332,12 @@
     }
 
     .ride-card {
-        margin: 1.5rem;
+        margin: 2rem 0rem;
+        width: 100%;
     }
 
     .ride-img {
-        width: 120px;
+        width: 70px;
     }
 
     .download-img {
